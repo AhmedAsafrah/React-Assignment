@@ -23,4 +23,4 @@ function removeDuplicates(array) {
 const ArrayOfStrings = ["apple", "banana", "apple", "orange", "banana", "kiwi"];
 console.log(removeDuplicates(ArrayOfStrings));
 
-// after my review, I have added the following code to remove duplicates in constant time complexity for some edge cases and it is impossible to remove duplicates in constant time complexity for all cases.
+// after my review, I have added the following code to remove duplicates in constant time complexity for some edge cases and it is impossible to remove duplicates in constant time complexity for all cases because we need to iterate over the array to check if the element is duplicated or not.
