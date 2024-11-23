@@ -6,7 +6,7 @@ function calcSumAndAverage(array) {
   } else {
     let sum = array.reduce((accu, curr) => accu + curr, 0);
     let average = sum / array.length;
-    return `Sum: ${sum}, Average: ${average}`;
+    return `Sum: ${sum} , Average: ${average}`;
   }
 }
 
